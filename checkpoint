@@ -1,0 +1,2 @@
+model_checkpoint_path: "/Users/gaopingxin/Downloads/ChatBot/model.tflearn"
+all_model_checkpoint_paths: "/Users/gaopingxin/Downloads/ChatBot/model.tflearn"

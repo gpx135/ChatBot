@@ -1,0 +1,32 @@
+{"questions": [
+
+    {"tag": "greeting",
+        "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Hey","Good day", "Whats up"],
+        "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
+        "context_set": ""
+    },
+
+    {"tag": "goodbye",
+        "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day","bye"],
+        "responses": ["Sad to see you go..", "Talk to you later", "Goodbye!"],
+        "context_set": ""
+    },
+
+
+    {"tag": "cut_fish",
+        "patterns": ["how to cut salmon", "how to slice salmon", "prepare salmon", "cut fish", "slice salmon","kill salmon"],
+        "responses": ["Check out this video --> shorturl.at/mqtzL"],
+        "context_set": ""
+    },
+    {"tag": "hr_salary",
+        "patterns": ["My salary was wrong", "salary mistake","my salary was missing","what should I do if my salary was wrong","there was a mistake in my salary", "mistage in salary", "payroll questions","wrong payroll", "money was wrong","money was missing","I need my money back"],
+        "responses": ["Hello, firstly, you need to check that your workshift was correct, if it is not, please ask your supervisor. If your workshift was correct, please make sure you have the latest TAX CARD already uploaded to the SYMPA system. If every thing was correct, please contact our payroll sepecialist (yang.li@spartao.fi). Thank you for your cooperation :)"],
+        "context_set": ""
+    },
+    {"tag": "hr_password",
+        "patterns": ["forgot my password for maraplan", "forgot my password for sympa","how can I get my password", "how to get a new password","how can I change password for maraplan or sympa","how to get a new password","is it ok to change password","who should I talk to change my password", "I cannot login to my accounts", "how do I reset the password","passwords are wrong","cannot remember pwd", "forgot pwd", "wrong pwd"],
+        "responses": ["Hello, please sent password reset request with your employee ID to our payroll sepecialist (yang.li@spartao.fi). Thanks."],
+        "context_set": ""
+    }
+]
+}
